@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_pak_ary_bagian_2/config/app_colors.dart';
 
 class InputContainer extends StatelessWidget {
   final String label;
