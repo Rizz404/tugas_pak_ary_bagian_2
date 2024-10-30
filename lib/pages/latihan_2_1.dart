@@ -141,7 +141,7 @@ class _Latihan21State extends State<Latihan21> {
               LabelAndValue(
                   label: 'Pekerjaan ortu', value: _pilihanPekerjaanOrtu!),
               LabelAndValue(
-                  label: 'Pekerjaan ortu', value: _pilihanAsalProvinsi!)
+                  label: 'Asal provinsi', value: _pilihanAsalProvinsi!)
             ],
           ),
           actions: [
@@ -313,6 +313,7 @@ class _Latihan21State extends State<Latihan21> {
                       label: 'Makanan favorit'),
 
                   // * Dropdown menu
+                  // ! di Flutter ngak ada widget yang namanya DropdownMenu
                   InputContainer(
                     widget: DropdownButton<String>(
                       hint: Text(
